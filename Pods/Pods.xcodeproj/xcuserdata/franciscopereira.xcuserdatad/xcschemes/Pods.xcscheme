@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3"
+   LastUpgradeVersion = "0500">
+   <BuildAction
+      buildImplicitDependencies = "YES"
+      parallelizeBuildables = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForArchiving = "YES"
+            buildForProfiling = "YES"
+            buildForRunning = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BlueprintIdentifier = "39CDF3048D904915ABBB255D"
+               BuildableIdentifier = "primary"
+               BuildableName = "libPods.a"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BlueprintName = "Pods">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      allowLocationSimulation = "YES"
+      buildConfiguration = "Debug"
+      launchStyle = "0"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES">
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      savedToolIdentifier = ""
+      buildConfiguration = "Release"
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

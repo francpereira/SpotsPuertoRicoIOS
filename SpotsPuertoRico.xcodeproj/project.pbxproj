@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306EFD6B73234343A287D642 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 927609B6E1E547E9B96BC470 /* libPods.a */; };
+		66447DF516C69C8F00F32EF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66447DF416C69C8F00F32EF8 /* UIKit.framework */; };
+		66447DF716C69C8F00F32EF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66447DF616C69C8F00F32EF8 /* Foundation.framework */; };
+		66447DF916C69C8F00F32EF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66447DF816C69C8F00F32EF8 /* CoreGraphics.framework */; };
+		66447DFF16C69C8F00F32EF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66447DFD16C69C8F00F32EF8 /* InfoPlist.strings */; };
+		66447E0116C69C8F00F32EF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66447E0016C69C8F00F32EF8 /* main.m */; };
+		66447E0516C69C8F00F32EF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66447E0416C69C8F00F32EF8 /* AppDelegate.m */; };
+		66447E0916C69C8F00F32EF8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66447E0816C69C8F00F32EF8 /* Default@2x.png */; };
+		66447E0B16C69C8F00F32EF8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66447E0A16C69C8F00F32EF8 /* Default-568h@2x.png */; };
+		66447E0E16C69C8F00F32EF8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66447E0C16C69C8F00F32EF8 /* MainStoryboard_iPhone.storyboard */; };
+		66447E1116C69C8F00F32EF8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66447E0F16C69C8F00F32EF8 /* MainStoryboard_iPad.storyboard */; };
+		66447E1416C69C8F00F32EF8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66447E1316C69C8F00F32EF8 /* FirstViewController.m */; };
+		66447E1616C69C8F00F32EF8 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 66447E1516C69C8F00F32EF8 /* first.png */; };
+		66447E1816C69C8F00F32EF8 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66447E1716C69C8F00F32EF8 /* first@2x.png */; };
+		66447E1B16C69C8F00F32EF8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66447E1A16C69C8F00F32EF8 /* SecondViewController.m */; };
+		66447E1D16C69C8F00F32EF8 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 66447E1C16C69C8F00F32EF8 /* second.png */; };
+		66447E1F16C69C9000F32EF8 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66447E1E16C69C8F00F32EF8 /* second@2x.png */; };
+		66447E2716C6B37300F32EF8 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66447E2616C6B37300F32EF8 /* ActivityViewController.m */; };
+		6647BC99177A69C1007979D2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6697AE2D177A62C400380956 /* ImageIO.framework */; };
+		6647BC9D177A6FE4007979D2 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647BC9C177A6FE4007979D2 /* SDWebImage.framework */; };
+		6647BC9F177A78EA007979D2 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6647BC9E177A78EA007979D2 /* placeholder.png */; };
+		665B540416E3A4980026CBD2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B540316E3A4980026CBD2 /* CoreLocation.framework */; };
+		6683F3F216FE6119000FB1BC /* tabaddspot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6683F3F116FE6119000FB1BC /* tabaddspot.png */; };
+		6683F3F416FE620A000FB1BC /* tabactividades.png in Resources */ = {isa = PBXBuildFile; fileRef = 6683F3F316FE620A000FB1BC /* tabactividades.png */; };
+		6683F3F616FE623A000FB1BC /* tabmapspot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6683F3F516FE623A000FB1BC /* tabmapspot.png */; };
+		6683F3F916FE62D2000FB1BC /* SugerenciaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6683F3F816FE62D2000FB1BC /* SugerenciaViewController.m */; };
+		6683F3FB16FE67EC000FB1BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6683F3FA16FE67EC000FB1BC /* QuartzCore.framework */; };
+		6683F3FD16FE6F83000FB1BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6683F3FC16FE6F83000FB1BC /* Default.png */; };
+		6698D35317D23BBF00DAB93E /* uploadspot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6698D35217D23BBF00DAB93E /* uploadspot.png */; };
+		6698D35617D292AE00DAB93E /* CreateSpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698D35517D292AE00DAB93E /* CreateSpotViewController.m */; };
+		66A88EF216DC25CA0081E5F7 /* SpotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A88EF116DC25CA0081E5F7 /* SpotsViewController.m */; };
+		66A88EF916DC2B0A0081E5F7 /* SPRActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A88EF816DC2B0A0081E5F7 /* SPRActivity.m */; };
+		66B9ECA316FF7EFC00831B0B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9ECA216FF7EFC00831B0B /* MessageUI.framework */; };
+		66E1765D16DD72560033481D /* LugaresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E1765C16DD72560033481D /* LugaresViewController.m */; };
+		66E1765F16DD74840033481D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E1765E16DD74840033481D /* MapKit.framework */; };
+		66F03BE316F6737400A4FC0F /* SpotDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F03BE216F6737400A4FC0F /* SpotDetailCell.m */; };
+		66F5C10C16FF2CB2008C3BE3 /* bg_sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F5C10B16FF2CB2008C3BE3 /* bg_sand.png */; };
+		66F5C10F16FF3358008C3BE3 /* surf_gradient_textured_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F5C10D16FF3358008C3BE3 /* surf_gradient_textured_32.png */; };
+		66F5C11016FF3358008C3BE3 /* surf_gradient_textured_44.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F5C10E16FF3358008C3BE3 /* surf_gradient_textured_44.png */; };
+		66F5C11516FF353E008C3BE3 /* button_back_textured_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F5C11116FF353D008C3BE3 /* button_back_textured_24.png */; };
+		66F5C11616FF353E008C3BE3 /* button_back_textured_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F5C11216FF353D008C3BE3 /* button_back_textured_30.png */; };
+		66F5C11716FF353E008C3BE3 /* button_textured_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F5C11316FF353D008C3BE3 /* button_textured_24.png */; };
+		66F5C11816FF353E008C3BE3 /* button_textured_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F5C11416FF353D008C3BE3 /* button_textured_30.png */; };
+		66FF35E816F4E97E00DD87DD /* SpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF35E716F4E97E00DD87DD /* SpotViewController.m */; };
+		66FF35EA16F51AD800DD87DD /* SpotPR.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FF35E916F51AD800DD87DD /* SpotPR.png */; };
+		66FF35EC16F51AEB00DD87DD /* SpotPR@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FF35EB16F51AEB00DD87DD /* SpotPR@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E09F89267D14A4892C664AD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		66447DF116C69C8F00F32EF8 /* SpotsPuertoRico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotsPuertoRico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66447DF416C69C8F00F32EF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66447DF616C69C8F00F32EF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66447DF816C69C8F00F32EF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66447DFC16C69C8F00F32EF8 /* SpotsPuertoRico-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpotsPuertoRico-Info.plist"; sourceTree = "<group>"; };
+		66447DFE16C69C8F00F32EF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66447E0016C69C8F00F32EF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66447E0216C69C8F00F32EF8 /* SpotsPuertoRico-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotsPuertoRico-Prefix.pch"; sourceTree = "<group>"; };
+		66447E0316C69C8F00F32EF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66447E0416C69C8F00F32EF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66447E0816C69C8F00F32EF8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		66447E0A16C69C8F00F32EF8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		66447E0D16C69C8F00F32EF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		66447E1016C69C8F00F32EF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		66447E1216C69C8F00F32EF8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		66447E1316C69C8F00F32EF8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		66447E1516C69C8F00F32EF8 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		66447E1716C69C8F00F32EF8 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		66447E1916C69C8F00F32EF8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		66447E1A16C69C8F00F32EF8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		66447E1C16C69C8F00F32EF8 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		66447E1E16C69C8F00F32EF8 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		66447E2516C6B37200F32EF8 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		66447E2616C6B37300F32EF8 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		6647BC9C177A6FE4007979D2 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		6647BC9E177A78EA007979D2 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		665B540316E3A4980026CBD2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6683F3F116FE6119000FB1BC /* tabaddspot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabaddspot.png; sourceTree = "<group>"; };
+		6683F3F316FE620A000FB1BC /* tabactividades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabactividades.png; sourceTree = "<group>"; };
+		6683F3F516FE623A000FB1BC /* tabmapspot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabmapspot.png; sourceTree = "<group>"; };
+		6683F3F716FE62D2000FB1BC /* SugerenciaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SugerenciaViewController.h; sourceTree = "<group>"; };
+		6683F3F816FE62D2000FB1BC /* SugerenciaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SugerenciaViewController.m; sourceTree = "<group>"; };
+		6683F3FA16FE67EC000FB1BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6683F3FC16FE6F83000FB1BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Images/Default.png; sourceTree = "<group>"; };
+		6697AE2D177A62C400380956 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		6698D35217D23BBF00DAB93E /* uploadspot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uploadspot.png; sourceTree = "<group>"; };
+		6698D35417D292AE00DAB93E /* CreateSpotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateSpotViewController.h; sourceTree = "<group>"; };
+		6698D35517D292AE00DAB93E /* CreateSpotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateSpotViewController.m; sourceTree = "<group>"; };
+		66A88EF016DC25CA0081E5F7 /* SpotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotsViewController.h; sourceTree = "<group>"; };
+		66A88EF116DC25CA0081E5F7 /* SpotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotsViewController.m; sourceTree = "<group>"; };
+		66A88EF716DC2B0A0081E5F7 /* SPRActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPRActivity.h; path = Model/SPRActivity.h; sourceTree = "<group>"; };
+		66A88EF816DC2B0A0081E5F7 /* SPRActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPRActivity.m; path = Model/SPRActivity.m; sourceTree = "<group>"; };
+		66B9ECA216FF7EFC00831B0B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		66E1765B16DD72560033481D /* LugaresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LugaresViewController.h; sourceTree = "<group>"; };
+		66E1765C16DD72560033481D /* LugaresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LugaresViewController.m; sourceTree = "<group>"; };
+		66E1765E16DD74840033481D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		66F03BE116F6737400A4FC0F /* SpotDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotDetailCell.h; sourceTree = "<group>"; };
+		66F03BE216F6737400A4FC0F /* SpotDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotDetailCell.m; sourceTree = "<group>"; };
+		66F5C10B16FF2CB2008C3BE3 /* bg_sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_sand.png; sourceTree = "<group>"; };
+		66F5C10D16FF3358008C3BE3 /* surf_gradient_textured_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = surf_gradient_textured_32.png; sourceTree = "<group>"; };
+		66F5C10E16FF3358008C3BE3 /* surf_gradient_textured_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = surf_gradient_textured_44.png; sourceTree = "<group>"; };
+		66F5C11116FF353D008C3BE3 /* button_back_textured_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back_textured_24.png; sourceTree = "<group>"; };
+		66F5C11216FF353D008C3BE3 /* button_back_textured_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back_textured_30.png; sourceTree = "<group>"; };
+		66F5C11316FF353D008C3BE3 /* button_textured_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_textured_24.png; sourceTree = "<group>"; };
+		66F5C11416FF353D008C3BE3 /* button_textured_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_textured_30.png; sourceTree = "<group>"; };
+		66FF35E616F4E97E00DD87DD /* SpotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotViewController.h; sourceTree = "<group>"; };
+		66FF35E716F4E97E00DD87DD /* SpotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotViewController.m; sourceTree = "<group>"; };
+		66FF35E916F51AD800DD87DD /* SpotPR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpotPR.png; sourceTree = "<group>"; };
+		66FF35EB16F51AEB00DD87DD /* SpotPR@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpotPR@2x.png"; sourceTree = "<group>"; };
+		927609B6E1E547E9B96BC470 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66447DEE16C69C8F00F32EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6647BC99177A69C1007979D2 /* ImageIO.framework in Frameworks */,
+				66B9ECA316FF7EFC00831B0B /* MessageUI.framework in Frameworks */,
+				6683F3FB16FE67EC000FB1BC /* QuartzCore.framework in Frameworks */,
+				665B540416E3A4980026CBD2 /* CoreLocation.framework in Frameworks */,
+				66E1765F16DD74840033481D /* MapKit.framework in Frameworks */,
+				66447DF516C69C8F00F32EF8 /* UIKit.framework in Frameworks */,
+				66447DF716C69C8F00F32EF8 /* Foundation.framework in Frameworks */,
+				66447DF916C69C8F00F32EF8 /* CoreGraphics.framework in Frameworks */,
+				6647BC9D177A6FE4007979D2 /* SDWebImage.framework in Frameworks */,
+				306EFD6B73234343A287D642 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66447DE816C69C8F00F32EF8 = {
+			isa = PBXGroup;
+			children = (
+				6698D35217D23BBF00DAB93E /* uploadspot.png */,
+				6647BC9E177A78EA007979D2 /* placeholder.png */,
+				6697AE2D177A62C400380956 /* ImageIO.framework */,
+				66B9ECA216FF7EFC00831B0B /* MessageUI.framework */,
+				66F5C11116FF353D008C3BE3 /* button_back_textured_24.png */,
+				66F5C11216FF353D008C3BE3 /* button_back_textured_30.png */,
+				66F5C11316FF353D008C3BE3 /* button_textured_24.png */,
+				66F5C11416FF353D008C3BE3 /* button_textured_30.png */,
+				66F5C10D16FF3358008C3BE3 /* surf_gradient_textured_32.png */,
+				66F5C10E16FF3358008C3BE3 /* surf_gradient_textured_44.png */,
+				66F5C10B16FF2CB2008C3BE3 /* bg_sand.png */,
+				6683F3FC16FE6F83000FB1BC /* Default.png */,
+				6683F3FA16FE67EC000FB1BC /* QuartzCore.framework */,
+				6683F3F516FE623A000FB1BC /* tabmapspot.png */,
+				6683F3F316FE620A000FB1BC /* tabactividades.png */,
+				6683F3F116FE6119000FB1BC /* tabaddspot.png */,
+				665B540316E3A4980026CBD2 /* CoreLocation.framework */,
+				66E1765E16DD74840033481D /* MapKit.framework */,
+				66447DFA16C69C8F00F32EF8 /* SpotsPuertoRico */,
+				66447DF316C69C8F00F32EF8 /* Frameworks */,
+				66447DF216C69C8F00F32EF8 /* Products */,
+				1E09F89267D14A4892C664AD /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		66447DF216C69C8F00F32EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66447DF116C69C8F00F32EF8 /* SpotsPuertoRico.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66447DF316C69C8F00F32EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66447DF416C69C8F00F32EF8 /* UIKit.framework */,
+				66447DF616C69C8F00F32EF8 /* Foundation.framework */,
+				66447DF816C69C8F00F32EF8 /* CoreGraphics.framework */,
+				927609B6E1E547E9B96BC470 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66447DFA16C69C8F00F32EF8 /* SpotsPuertoRico */ = {
+			isa = PBXGroup;
+			children = (
+				6647BC9C177A6FE4007979D2 /* SDWebImage.framework */,
+				66FF35EB16F51AEB00DD87DD /* SpotPR@2x.png */,
+				66FF35E916F51AD800DD87DD /* SpotPR.png */,
+				66A88EF616DC2ADD0081E5F7 /* Model */,
+				66447E0316C69C8F00F32EF8 /* AppDelegate.h */,
+				66447E0416C69C8F00F32EF8 /* AppDelegate.m */,
+				66447E0C16C69C8F00F32EF8 /* MainStoryboard_iPhone.storyboard */,
+				66447E0F16C69C8F00F32EF8 /* MainStoryboard_iPad.storyboard */,
+				66447E1216C69C8F00F32EF8 /* FirstViewController.h */,
+				66447E1316C69C8F00F32EF8 /* FirstViewController.m */,
+				66447E1516C69C8F00F32EF8 /* first.png */,
+				66447E1716C69C8F00F32EF8 /* first@2x.png */,
+				66447E1916C69C8F00F32EF8 /* SecondViewController.h */,
+				66447E1A16C69C8F00F32EF8 /* SecondViewController.m */,
+				66447E1C16C69C8F00F32EF8 /* second.png */,
+				66447E1E16C69C8F00F32EF8 /* second@2x.png */,
+				66447DFB16C69C8F00F32EF8 /* Supporting Files */,
+				66447E2516C6B37200F32EF8 /* ActivityViewController.h */,
+				66447E2616C6B37300F32EF8 /* ActivityViewController.m */,
+				66A88EF016DC25CA0081E5F7 /* SpotsViewController.h */,
+				66A88EF116DC25CA0081E5F7 /* SpotsViewController.m */,
+				66E1765B16DD72560033481D /* LugaresViewController.h */,
+				66E1765C16DD72560033481D /* LugaresViewController.m */,
+				66FF35E616F4E97E00DD87DD /* SpotViewController.h */,
+				66FF35E716F4E97E00DD87DD /* SpotViewController.m */,
+				66F03BE116F6737400A4FC0F /* SpotDetailCell.h */,
+				66F03BE216F6737400A4FC0F /* SpotDetailCell.m */,
+				6683F3F716FE62D2000FB1BC /* SugerenciaViewController.h */,
+				6683F3F816FE62D2000FB1BC /* SugerenciaViewController.m */,
+				6698D35417D292AE00DAB93E /* CreateSpotViewController.h */,
+				6698D35517D292AE00DAB93E /* CreateSpotViewController.m */,
+			);
+			path = SpotsPuertoRico;
+			sourceTree = "<group>";
+		};
+		66447DFB16C69C8F00F32EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66447DFC16C69C8F00F32EF8 /* SpotsPuertoRico-Info.plist */,
+				66447DFD16C69C8F00F32EF8 /* InfoPlist.strings */,
+				66447E0016C69C8F00F32EF8 /* main.m */,
+				66447E0216C69C8F00F32EF8 /* SpotsPuertoRico-Prefix.pch */,
+				66447E0816C69C8F00F32EF8 /* Default@2x.png */,
+				66447E0A16C69C8F00F32EF8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66A88EF616DC2ADD0081E5F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66A88EF716DC2B0A0081E5F7 /* SPRActivity.h */,
+				66A88EF816DC2B0A0081E5F7 /* SPRActivity.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66447DF016C69C8F00F32EF8 /* SpotsPuertoRico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66447E2216C69C9000F32EF8 /* Build configuration list for PBXNativeTarget "SpotsPuertoRico" */;
+			buildPhases = (
+				4FF19EB3394B4465A1B72EF9 /* Check Pods Manifest.lock */,
+				66447DED16C69C8F00F32EF8 /* Sources */,
+				66447DEE16C69C8F00F32EF8 /* Frameworks */,
+				66447DEF16C69C8F00F32EF8 /* Resources */,
+				F294721A25FD4C70B46D5F34 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotsPuertoRico;
+			productName = SpotsPuertoRico;
+			productReference = 66447DF116C69C8F00F32EF8 /* SpotsPuertoRico.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66447DE916C69C8F00F32EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Francisco Pereira";
+			};
+			buildConfigurationList = 66447DEC16C69C8F00F32EF8 /* Build configuration list for PBXProject "SpotsPuertoRico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66447DE816C69C8F00F32EF8;
+			productRefGroup = 66447DF216C69C8F00F32EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66447DF016C69C8F00F32EF8 /* SpotsPuertoRico */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66447DEF16C69C8F00F32EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66447DFF16C69C8F00F32EF8 /* InfoPlist.strings in Resources */,
+				66447E0916C69C8F00F32EF8 /* Default@2x.png in Resources */,
+				66447E0B16C69C8F00F32EF8 /* Default-568h@2x.png in Resources */,
+				66447E0E16C69C8F00F32EF8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				66447E1116C69C8F00F32EF8 /* MainStoryboard_iPad.storyboard in Resources */,
+				66447E1616C69C8F00F32EF8 /* first.png in Resources */,
+				66447E1816C69C8F00F32EF8 /* first@2x.png in Resources */,
+				66447E1D16C69C8F00F32EF8 /* second.png in Resources */,
+				66447E1F16C69C9000F32EF8 /* second@2x.png in Resources */,
+				66FF35EA16F51AD800DD87DD /* SpotPR.png in Resources */,
+				66FF35EC16F51AEB00DD87DD /* SpotPR@2x.png in Resources */,
+				6683F3F216FE6119000FB1BC /* tabaddspot.png in Resources */,
+				6683F3F416FE620A000FB1BC /* tabactividades.png in Resources */,
+				6683F3F616FE623A000FB1BC /* tabmapspot.png in Resources */,
+				6683F3FD16FE6F83000FB1BC /* Default.png in Resources */,
+				66F5C10C16FF2CB2008C3BE3 /* bg_sand.png in Resources */,
+				66F5C10F16FF3358008C3BE3 /* surf_gradient_textured_32.png in Resources */,
+				66F5C11016FF3358008C3BE3 /* surf_gradient_textured_44.png in Resources */,
+				66F5C11516FF353E008C3BE3 /* button_back_textured_24.png in Resources */,
+				66F5C11616FF353E008C3BE3 /* button_back_textured_30.png in Resources */,
+				66F5C11716FF353E008C3BE3 /* button_textured_24.png in Resources */,
+				66F5C11816FF353E008C3BE3 /* button_textured_30.png in Resources */,
+				6647BC9F177A78EA007979D2 /* placeholder.png in Resources */,
+				6698D35317D23BBF00DAB93E /* uploadspot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FF19EB3394B4465A1B72EF9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F294721A25FD4C70B46D5F34 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66447DED16C69C8F00F32EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66447E0116C69C8F00F32EF8 /* main.m in Sources */,
+				66447E0516C69C8F00F32EF8 /* AppDelegate.m in Sources */,
+				66447E1416C69C8F00F32EF8 /* FirstViewController.m in Sources */,
+				66447E1B16C69C8F00F32EF8 /* SecondViewController.m in Sources */,
+				66447E2716C6B37300F32EF8 /* ActivityViewController.m in Sources */,
+				66A88EF216DC25CA0081E5F7 /* SpotsViewController.m in Sources */,
+				66A88EF916DC2B0A0081E5F7 /* SPRActivity.m in Sources */,
+				66E1765D16DD72560033481D /* LugaresViewController.m in Sources */,
+				66FF35E816F4E97E00DD87DD /* SpotViewController.m in Sources */,
+				66F03BE316F6737400A4FC0F /* SpotDetailCell.m in Sources */,
+				6683F3F916FE62D2000FB1BC /* SugerenciaViewController.m in Sources */,
+				6698D35617D292AE00DAB93E /* CreateSpotViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66447DFD16C69C8F00F32EF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66447DFE16C69C8F00F32EF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66447E0C16C69C8F00F32EF8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66447E0D16C69C8F00F32EF8 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		66447E0F16C69C8F00F32EF8 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66447E1016C69C8F00F32EF8 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66447E2016C69C9000F32EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"${PODS_ROOT}/BuildHeaders\"/**";
+			};
+			name = Debug;
+		};
+		66447E2116C69C9000F32EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Francisco Pereira (V68LBT6R72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Francisco Pereira (V68LBT6R72)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "72DD23AB-AE88-46B0-9EFB-A974139D3AF2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "72DD23AB-AE88-46B0-9EFB-A974139D3AF2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"${PODS_ROOT}/BuildHeaders\"/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66447E2316C69C9000F32EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E09F89267D14A4892C664AD /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/SpotsPuertoRico\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpotsPuertoRico/SpotsPuertoRico-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "SpotsPuertoRico/SpotsPuertoRico-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66447E2416C69C9000F32EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E09F89267D14A4892C664AD /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/SpotsPuertoRico\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpotsPuertoRico/SpotsPuertoRico-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "SpotsPuertoRico/SpotsPuertoRico-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66447DEC16C69C8F00F32EF8 /* Build configuration list for PBXProject "SpotsPuertoRico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66447E2016C69C9000F32EF8 /* Debug */,
+				66447E2116C69C9000F32EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66447E2216C69C9000F32EF8 /* Build configuration list for PBXNativeTarget "SpotsPuertoRico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66447E2316C69C9000F32EF8 /* Debug */,
+				66447E2416C69C9000F32EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66447DE916C69C8F00F32EF8 /* Project object */;
+}
