@@ -53,7 +53,7 @@ double currentLongitude;
     self.txtDescription.delegate = self;
     self.txtName.delegate = self;
     
-   // self.mapViewer.showsUserLocation = TRUE;
+    self.mapViewer.showsUserLocation = TRUE;
     self.mapViewer.delegate = self;
 }
 
@@ -111,6 +111,11 @@ double currentLongitude;
     //if (self.pinCreated == false)
     //{
     
+    mapView.userLocation.title = @"";
+    
+    NSLog(@"didUpdateUserLocation 2");
+
+    
     MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 100, 100);
     [self.mapViewer setRegion:[self.mapViewer regionThatFits:region] animated:YES];
     
@@ -119,10 +124,13 @@ double currentLongitude;
     point.coordinate = userLocation.coordinate;
     point.title = @"Nuevo Spot";
     
+    NSLog(@"didUpdateUserLocation 3");
     
-    
-    if (self.mapViewer.annotations.count < 1)
+    if (self.mapViewer.annotations.count <= 1)
     {
+        
+        NSLog(@"didUpdateUserLocation 4");
+        
         currentLatitude = userLocation.coordinate.latitude;
         currentLongitude = userLocation.coordinate.longitude;
         

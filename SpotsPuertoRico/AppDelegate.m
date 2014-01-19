@@ -13,6 +13,8 @@
 
 - (void)customizeAppearance
 {
+    /*
+    
     // Create resizable images
     UIImage *gradientImage44 = [[UIImage imageNamed:@"surf_gradient_textured_44"]
                                 resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
@@ -69,13 +71,13 @@
     [[UIBarButtonItem appearance] setBackButtonBackgroundImage:buttonBack24
                                                       forState:UIControlStateNormal barMetrics:UIBarMetricsLandscapePhone];
 
-    
+    */
     
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [self customizeAppearance];
+   // [self customizeAppearance];
     
     // Override point for customization after application launch.
     return YES;

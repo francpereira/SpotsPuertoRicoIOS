@@ -63,7 +63,6 @@
     
     [connectionSpots start];
     
-    
 
 }
 
