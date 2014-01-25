@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		306EFD6B73234343A287D642 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 927609B6E1E547E9B96BC470 /* libPods.a */; };
+		660DCA6E1894459A00A54618 /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 660DCA6D1894459A00A54618 /* icon-120.png */; };
 		66447DF516C69C8F00F32EF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66447DF416C69C8F00F32EF8 /* UIKit.framework */; };
 		66447DF716C69C8F00F32EF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66447DF616C69C8F00F32EF8 /* Foundation.framework */; };
 		66447DF916C69C8F00F32EF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66447DF816C69C8F00F32EF8 /* CoreGraphics.framework */; };
@@ -57,6 +58,7 @@
 
 /* Begin PBXFileReference section */
 		1E09F89267D14A4892C664AD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		660DCA6D1894459A00A54618 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = "<group>"; };
 		66447DF116C69C8F00F32EF8 /* SpotsPuertoRico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotsPuertoRico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66447DF416C69C8F00F32EF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66447DF616C69C8F00F32EF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -228,6 +230,7 @@
 		66447DFB16C69C8F00F32EF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				660DCA6D1894459A00A54618 /* icon-120.png */,
 				66447DFC16C69C8F00F32EF8 /* SpotsPuertoRico-Info.plist */,
 				66447DFD16C69C8F00F32EF8 /* InfoPlist.strings */,
 				66447E0016C69C8F00F32EF8 /* main.m */,
@@ -277,6 +280,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Francisco Pereira";
+				TargetAttributes = {
+					66447DF016C69C8F00F32EF8 = {
+						DevelopmentTeam = 8E32X725D4;
+					};
+				};
 			};
 			buildConfigurationList = 66447DEC16C69C8F00F32EF8 /* Build configuration list for PBXProject "SpotsPuertoRico" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -304,6 +312,7 @@
 				66447E0916C69C8F00F32EF8 /* Default@2x.png in Resources */,
 				66447E0B16C69C8F00F32EF8 /* Default-568h@2x.png in Resources */,
 				66447E0E16C69C8F00F32EF8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				660DCA6E1894459A00A54618 /* icon-120.png in Resources */,
 				66447E1116C69C8F00F32EF8 /* MainStoryboard_iPad.storyboard in Resources */,
 				66447E1616C69C8F00F32EF8 /* first.png in Resources */,
 				66447E1816C69C8F00F32EF8 /* first@2x.png in Resources */,
@@ -480,6 +489,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E09F89267D14A4892C664AD /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -491,6 +502,7 @@
 				INFOPLIST_FILE = "SpotsPuertoRico/SpotsPuertoRico-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -500,6 +512,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E09F89267D14A4892C664AD /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -511,6 +525,7 @@
 				INFOPLIST_FILE = "SpotsPuertoRico/SpotsPuertoRico-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

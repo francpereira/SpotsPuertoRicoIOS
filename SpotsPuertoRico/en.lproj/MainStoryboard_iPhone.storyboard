@@ -338,7 +338,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="6sQ-fM-nru">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="6sQ-fM-nru">
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <items>
                                     <barButtonItem title="Satelite" id="xH7-YK-RUN">
@@ -353,22 +353,11 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XMg-sU-k9R">
-                                <rect key="frame" x="0.0" y="113" width="320" height="455"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="455" id="SVc-RF-gQN"/>
-                                </constraints>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XMg-sU-k9R">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="6sQ-fM-nru" firstAttribute="bottom" secondItem="2rM-WM-V4N" secondAttribute="bottom" id="026-31-pKR"/>
-                            <constraint firstItem="XMg-sU-k9R" firstAttribute="leading" secondItem="2rM-WM-V4N" secondAttribute="leading" id="0hP-Fh-DOT"/>
-                            <constraint firstItem="6sQ-fM-nru" firstAttribute="trailing" secondItem="2rM-WM-V4N" secondAttribute="trailing" id="2lT-Hd-xfM"/>
-                            <constraint firstItem="XMg-sU-k9R" firstAttribute="bottom" secondItem="2rM-WM-V4N" secondAttribute="bottom" id="YBN-tV-DFX"/>
-                            <constraint firstItem="XMg-sU-k9R" firstAttribute="trailing" secondItem="2rM-WM-V4N" secondAttribute="trailing" id="e2g-y1-i14"/>
-                            <constraint firstItem="6sQ-fM-nru" firstAttribute="leading" secondItem="2rM-WM-V4N" secondAttribute="leading" id="yr6-jh-rZj"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Lugares" image="tabmapspot.png" id="ApQ-7E-jOd"/>
                     <connections>
